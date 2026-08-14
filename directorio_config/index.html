@@ -1,0 +1,128 @@
+{% load static %}
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Directorio Web</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Encabezado -->
+      <header class="header">
+        <h1>Directorio Web</h1>
+      </header>
+
+      <!-- Buscador -->
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Buscar página..."
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Categorías -->
+      <nav class="categories">
+        <button class="btn-category active" data-category="todos">Todos</button>
+
+        <button class="btn-category" data-category="intra">INTRA</button>
+
+        <button class="btn-category" data-category="orbita">Órbita</button>
+
+        <button class="btn-category" data-category="nom035">NOM035</button>
+
+        <button class="btn-category" data-category="contabilidad">
+          Contabilidad
+        </button>
+
+        <button class="btn-category" data-category="collaboracali">
+          Collaboracali
+        </button>
+      </nav>
+
+      <!-- Ordenamiento -->
+      <div class="sort-container">
+        <label for="sort-select"> Ordenar por: </label>
+
+        <select id="sort-select">
+          <option value="aleatorio">Aleatorio</option>
+
+          <option value="asc">Nombre (A-Z)</option>
+
+          <option value="desc">Nombre (Z-A)</option>
+        </select>
+      </div>
+
+      <!-- Grid de Portales -->
+      <main class="grid-container" id="business-grid">
+        {% for portal in portales %}
+
+        <article
+          class="card"
+          data-category="{{ portal.categoria }}"
+          data-title="{{ portal.nombre }}"
+        >
+          <!-- Imagen / Icono -->
+          <div class="card-image">
+            <div class="portal-icon">
+              <i class="{{ portal.icono }}"></i>
+            </div>
+
+            <span class="badge"> {{ portal.get_categoria_display }} </span>
+          </div>
+
+          <!-- Información -->
+          <div class="card-content">
+            <h3>{{ portal.nombre }}</h3>
+
+            {% if portal.descripcion %}
+            <p>{{ portal.descripcion }}</p>
+            {% endif %}
+
+            <!-- Botón -->
+            <a
+              href="{{ portal.url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="portal-link"
+            >
+              <span>Visitar portal</span>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        {% empty %}
+
+        <div class="no-results">
+          <i class="fa-solid fa-folder-open"></i>
+
+          <h3>No hay portales disponibles</h3>
+
+          <p>Actualmente no existen portales registrados.</p>
+        </div>
+
+        {% endfor %}
+      </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="{% static 'js/app.js' %}"></script>
+  </body>
+</html>
