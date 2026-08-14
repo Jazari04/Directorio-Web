@@ -1,0 +1,310 @@
+[
+{
+  "model": "portales.portal",
+  "pk": 1,
+  "fields": {
+    "nombre": "Academia INTRA",
+    "url": "https://www.academia.intra.org.mx",
+    "descripcion": "Portal de Academia INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T16:23:43.252Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.048Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 2,
+  "fields": {
+    "nombre": "Directorio de Personal INTRA",
+    "url": "https://directorio-production-c6f9.up.railway.app",
+    "descripcion": "Directorio de personal de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:13.998Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.141Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 3,
+  "fields": {
+    "nombre": "Órbita",
+    "url": "https://orbita.now",
+    "descripcion": "Portal principal de Órbita",
+    "categoria": "orbita",
+    "icono": "fa-solid fa-globe",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.012Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.236Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 4,
+  "fields": {
+    "nombre": "NOM035 Órbita",
+    "url": "https://nom035.orbita.now",
+    "descripcion": "Portal NOM035 de Órbita",
+    "categoria": "orbita",
+    "icono": "fa-solid fa-globe",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.020Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.199Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 5,
+  "fields": {
+    "nombre": "ECO Órbita",
+    "url": "https://eco.orbita.now",
+    "descripcion": "Portal ECO de Órbita",
+    "categoria": "orbita",
+    "icono": "fa-solid fa-globe",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.033Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.148Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 6,
+  "fields": {
+    "nombre": "Portal Grupo INTRA",
+    "url": "https://portal.grupointra.mx",
+    "descripcion": "Portal principal de Grupo INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.045Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.207Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 7,
+  "fields": {
+    "nombre": "NOM INTRA",
+    "url": "https://www.nom.intra.org.mx",
+    "descripcion": "Portal NOM de INTRA",
+    "categoria": "nom035",
+    "icono": "fa-solid fa-shield-heart",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.055Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.184Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 8,
+  "fields": {
+    "nombre": "Classroom Órbita",
+    "url": "https://classroom.orbita.now",
+    "descripcion": "Plataforma Classroom de Órbita",
+    "categoria": "orbita",
+    "icono": "fa-solid fa-globe",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.065Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.113Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 9,
+  "fields": {
+    "nombre": "IntraControl",
+    "url": "https://web-production-1fd0f.up.railway.app",
+    "descripcion": "Sistema de control de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.073Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.176Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 10,
+  "fields": {
+    "nombre": "Aurosal INTRA",
+    "url": "https://www.aurosal.intra.org.mx",
+    "descripcion": "Portal Aurosal de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.085Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.092Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 11,
+  "fields": {
+    "nombre": "Sistema Contable LEGACY",
+    "url": "https://web-production-109d8.up.railway.app",
+    "descripcion": "Sistema contable LEGACY",
+    "categoria": "contabilidad",
+    "icono": "fa-solid fa-calculator",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.095Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.215Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 12,
+  "fields": {
+    "nombre": "Calendario INTRA",
+    "url": "https://calendario.intra.org.mx",
+    "descripcion": "Calendario institucional de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.104Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.102Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 13,
+  "fields": {
+    "nombre": "Collaboracali Implementaciones",
+    "url": "https://implementaciones.collaboracali.com/login",
+    "descripcion": "Portal de implementaciones de Collaboracali",
+    "categoria": "collaboracali",
+    "icono": "fa-solid fa-users",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.114Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.131Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 14,
+  "fields": {
+    "nombre": "AcademiApp INTRA",
+    "url": "https://academiapp.intra.org.mx",
+    "descripcion": "Aplicación académica de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.121Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.033Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 15,
+  "fields": {
+    "nombre": "Agenda INTRA",
+    "url": "https://www.agenda.intra.org.mx",
+    "descripcion": "Agenda institucional de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.131Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.077Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 16,
+  "fields": {
+    "nombre": "Talleres INTRA",
+    "url": "https://www.talleres.intra.org.mx",
+    "descripcion": "Portal de talleres de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.138Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.221Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 17,
+  "fields": {
+    "nombre": "INTRA",
+    "url": "https://intra.org.mx",
+    "descripcion": "Sitio principal de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.148Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.164Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 18,
+  "fields": {
+    "nombre": "Academia INTRA",
+    "url": "https://academia.intra.org.mx",
+    "descripcion": "Portal de Academia INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.155Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.062Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 19,
+  "fields": {
+    "nombre": "Equipos de Salud INTRA",
+    "url": "https://equiposalud.intra.org.mx",
+    "descripcion": "Portal de Equipos de Salud de INTRA",
+    "categoria": "intra",
+    "icono": "fa-solid fa-building",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.164Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.158Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 20,
+  "fields": {
+    "nombre": "NOM-035 INTRA",
+    "url": "https://nom-035.intra.org.mx/",
+    "descripcion": "Portal NOM-035 de INTRA",
+    "categoria": "nom035",
+    "icono": "fa-solid fa-shield-heart",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.171Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.192Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 21,
+  "fields": {
+    "nombre": "Collaboracali",
+    "url": "https://collaboracali.com",
+    "descripcion": "Sitio principal de Collaboracali",
+    "categoria": "collaboracali",
+    "icono": "fa-solid fa-users",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.181Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.123Z"
+  }
+},
+{
+  "model": "portales.portal",
+  "pk": 22,
+  "fields": {
+    "nombre": "WCA Collaboracali",
+    "url": "https://wca.collaboracali.com",
+    "descripcion": "Portal WCA de Collaboracali",
+    "categoria": "collaboracali",
+    "icono": "fa-solid fa-users",
+    "activo": true,
+    "fecha_creacion": "2026-08-14T17:01:14.188Z",
+    "fecha_actualizacion": "2026-08-14T17:07:05.228Z"
+  }
+}
+]
