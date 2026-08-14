@@ -1,0 +1,1 @@
+web: gunicorn directorio_config.wsgi:application
